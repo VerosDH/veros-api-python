@@ -1,6 +1,6 @@
 # api.AccountsApi
 
-All URIs are relative to *http://localhost:8000/api/v1*
+All URIs are relative to *https://api.vedh.io/api/v1*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -38,8 +38,8 @@ configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
-# Defining host is optional and default to http://localhost:8000/api/v1
-configuration.host = "http://localhost:8000/api/v1"
+# Defining host is optional and default to https://api.vedh.io/api/v1
+configuration.host = "https://api.vedh.io/api/v1"
 # Create an instance of the API class
 api_instance = api.AccountsApi(api.ApiClient(configuration))
 data = api.JSONWebToken() # JSONWebToken | 
@@ -68,8 +68,8 @@ configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
-# Defining host is optional and default to http://localhost:8000/api/v1
-configuration.host = "http://localhost:8000/api/v1"
+# Defining host is optional and default to https://api.vedh.io/api/v1
+configuration.host = "https://api.vedh.io/api/v1"
 # Create an instance of the API class
 api_instance = api.AccountsApi(api.ApiClient(configuration))
 data = api.JSONWebToken() # JSONWebToken | 
@@ -135,8 +135,8 @@ configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
-# Defining host is optional and default to http://localhost:8000/api/v1
-configuration.host = "http://localhost:8000/api/v1"
+# Defining host is optional and default to https://api.vedh.io/api/v1
+configuration.host = "https://api.vedh.io/api/v1"
 # Create an instance of the API class
 api_instance = api.AccountsApi(api.ApiClient(configuration))
 data = api.PasswordReset() # PasswordReset | 
@@ -165,8 +165,8 @@ configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
-# Defining host is optional and default to http://localhost:8000/api/v1
-configuration.host = "http://localhost:8000/api/v1"
+# Defining host is optional and default to https://api.vedh.io/api/v1
+configuration.host = "https://api.vedh.io/api/v1"
 # Create an instance of the API class
 api_instance = api.AccountsApi(api.ApiClient(configuration))
 data = api.PasswordReset() # PasswordReset | 
@@ -230,8 +230,8 @@ configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
-# Defining host is optional and default to http://localhost:8000/api/v1
-configuration.host = "http://localhost:8000/api/v1"
+# Defining host is optional and default to https://api.vedh.io/api/v1
+configuration.host = "https://api.vedh.io/api/v1"
 # Create an instance of the API class
 api_instance = api.AccountsApi(api.ApiClient(configuration))
 data = api.PasswordResetConfirm() # PasswordResetConfirm | 
@@ -260,8 +260,8 @@ configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
-# Defining host is optional and default to http://localhost:8000/api/v1
-configuration.host = "http://localhost:8000/api/v1"
+# Defining host is optional and default to https://api.vedh.io/api/v1
+configuration.host = "https://api.vedh.io/api/v1"
 # Create an instance of the API class
 api_instance = api.AccountsApi(api.ApiClient(configuration))
 data = api.PasswordResetConfirm() # PasswordResetConfirm | 
@@ -325,8 +325,8 @@ configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
-# Defining host is optional and default to http://localhost:8000/api/v1
-configuration.host = "http://localhost:8000/api/v1"
+# Defining host is optional and default to https://api.vedh.io/api/v1
+configuration.host = "https://api.vedh.io/api/v1"
 # Create an instance of the API class
 api_instance = api.AccountsApi(api.ApiClient(configuration))
 data = api.UserRegistration() # UserRegistration | 
@@ -355,8 +355,8 @@ configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
-# Defining host is optional and default to http://localhost:8000/api/v1
-configuration.host = "http://localhost:8000/api/v1"
+# Defining host is optional and default to https://api.vedh.io/api/v1
+configuration.host = "https://api.vedh.io/api/v1"
 # Create an instance of the API class
 api_instance = api.AccountsApi(api.ApiClient(configuration))
 data = api.UserRegistration() # UserRegistration | 
@@ -421,8 +421,8 @@ configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
-# Defining host is optional and default to http://localhost:8000/api/v1
-configuration.host = "http://localhost:8000/api/v1"
+# Defining host is optional and default to https://api.vedh.io/api/v1
+configuration.host = "https://api.vedh.io/api/v1"
 # Create an instance of the API class
 api_instance = api.AccountsApi(api.ApiClient(configuration))
 email = 'email_example' # str | 
@@ -454,8 +454,8 @@ configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
-# Defining host is optional and default to http://localhost:8000/api/v1
-configuration.host = "http://localhost:8000/api/v1"
+# Defining host is optional and default to https://api.vedh.io/api/v1
+configuration.host = "https://api.vedh.io/api/v1"
 # Create an instance of the API class
 api_instance = api.AccountsApi(api.ApiClient(configuration))
 email = 'email_example' # str | 
@@ -526,8 +526,8 @@ configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
-# Defining host is optional and default to http://localhost:8000/api/v1
-configuration.host = "http://localhost:8000/api/v1"
+# Defining host is optional and default to https://api.vedh.io/api/v1
+configuration.host = "https://api.vedh.io/api/v1"
 # Create an instance of the API class
 api_instance = api.AccountsApi(api.ApiClient(configuration))
 id = 56 # int | A unique integer value identifying this User.
@@ -557,8 +557,8 @@ configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
 # configuration.api_key_prefix['Authorization'] = 'Bearer'
 
-# Defining host is optional and default to http://localhost:8000/api/v1
-configuration.host = "http://localhost:8000/api/v1"
+# Defining host is optional and default to https://api.vedh.io/api/v1
+configuration.host = "https://api.vedh.io/api/v1"
 # Create an instance of the API class
 api_instance = api.AccountsApi(api.ApiClient(configuration))
 id = 56 # int | A unique integer value identifying this User.
