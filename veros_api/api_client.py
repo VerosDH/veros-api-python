@@ -22,10 +22,10 @@ import tempfile
 import six
 from six.moves.urllib.parse import quote
 
-from api.configuration import Configuration
-import api.models
-from api import rest
-from api.exceptions import ApiValueError
+from veros_api.configuration import Configuration
+import veros_api.models
+from veros_api import rest
+from veros_api.exceptions import ApiValueError
 
 
 class ApiClient(object):
@@ -277,7 +277,7 @@ class ApiClient(object):
             if klass in self.NATIVE_TYPES_MAPPING:
                 klass = self.NATIVE_TYPES_MAPPING[klass]
             else:
-                klass = getattr(api.models, klass)
+                klass = getattr(veros_api.models, klass)
 
         if klass in self.PRIMITIVE_TYPES:
             return self.__deserialize_primitive(data, klass)

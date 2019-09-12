@@ -1,4 +1,4 @@
-# api.CitiesApi
+# veros_api.CitiesApi
 
 All URIs are relative to *https://api.vedh.io/api/v1*
 
@@ -19,14 +19,14 @@ Method | HTTP request | Description
 ```python
 from __future__ import print_function
 import time
-import api
-from api.rest import ApiException
+import veros_api
+from veros_api.rest import ApiException
 from pprint import pprint
-configuration = api.Configuration()
+configuration = veros_api.Configuration()
 # Configure HTTP basic authorization: Basic
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
-configuration = api.Configuration()
+configuration = veros_api.Configuration()
 # Configure API key authorization: Bearer
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
@@ -35,7 +35,7 @@ configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Defining host is optional and default to https://api.vedh.io/api/v1
 configuration.host = "https://api.vedh.io/api/v1"
 # Create an instance of the API class
-api_instance = api.CitiesApi(api.ApiClient(configuration))
+api_instance = veros_api.CitiesApi(veros_api.ApiClient(configuration))
 search = 'search_example' # str | A search term. (optional)
 ordering = 'ordering_example' # str | Which field to use when ordering the results. (optional)
 country__name = 'country__name_example' # str |  (optional)
@@ -53,14 +53,14 @@ except ApiException as e:
 ```python
 from __future__ import print_function
 import time
-import api
-from api.rest import ApiException
+import veros_api
+from veros_api.rest import ApiException
 from pprint import pprint
-configuration = api.Configuration()
+configuration = veros_api.Configuration()
 # Configure HTTP basic authorization: Basic
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
-configuration = api.Configuration()
+configuration = veros_api.Configuration()
 # Configure API key authorization: Bearer
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
@@ -69,7 +69,7 @@ configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Defining host is optional and default to https://api.vedh.io/api/v1
 configuration.host = "https://api.vedh.io/api/v1"
 # Create an instance of the API class
-api_instance = api.CitiesApi(api.ApiClient(configuration))
+api_instance = veros_api.CitiesApi(veros_api.ApiClient(configuration))
 search = 'search_example' # str | A search term. (optional)
 ordering = 'ordering_example' # str | Which field to use when ordering the results. (optional)
 country__name = 'country__name_example' # str |  (optional)
@@ -124,14 +124,14 @@ Name | Type | Description  | Notes
 ```python
 from __future__ import print_function
 import time
-import api
-from api.rest import ApiException
+import veros_api
+from veros_api.rest import ApiException
 from pprint import pprint
-configuration = api.Configuration()
+configuration = veros_api.Configuration()
 # Configure HTTP basic authorization: Basic
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
-configuration = api.Configuration()
+configuration = veros_api.Configuration()
 # Configure API key authorization: Bearer
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
@@ -140,7 +140,7 @@ configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Defining host is optional and default to https://api.vedh.io/api/v1
 configuration.host = "https://api.vedh.io/api/v1"
 # Create an instance of the API class
-api_instance = api.CitiesApi(api.ApiClient(configuration))
+api_instance = veros_api.CitiesApi(veros_api.ApiClient(configuration))
 id = 56 # int | A unique integer value identifying this city.
 
 try:
@@ -154,14 +154,14 @@ except ApiException as e:
 ```python
 from __future__ import print_function
 import time
-import api
-from api.rest import ApiException
+import veros_api
+from veros_api.rest import ApiException
 from pprint import pprint
-configuration = api.Configuration()
+configuration = veros_api.Configuration()
 # Configure HTTP basic authorization: Basic
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
-configuration = api.Configuration()
+configuration = veros_api.Configuration()
 # Configure API key authorization: Bearer
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
@@ -170,7 +170,7 @@ configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Defining host is optional and default to https://api.vedh.io/api/v1
 configuration.host = "https://api.vedh.io/api/v1"
 # Create an instance of the API class
-api_instance = api.CitiesApi(api.ApiClient(configuration))
+api_instance = veros_api.CitiesApi(veros_api.ApiClient(configuration))
 id = 56 # int | A unique integer value identifying this city.
 
 try:

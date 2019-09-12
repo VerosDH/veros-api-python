@@ -1,4 +1,4 @@
-# api.AccountsApi
+# veros_api.AccountsApi
 
 All URIs are relative to *https://api.vedh.io/api/v1*
 
@@ -25,14 +25,14 @@ Retrieve auth token by pair of username & password.
 ```python
 from __future__ import print_function
 import time
-import api
-from api.rest import ApiException
+import veros_api
+from veros_api.rest import ApiException
 from pprint import pprint
-configuration = api.Configuration()
+configuration = veros_api.Configuration()
 # Configure HTTP basic authorization: Basic
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
-configuration = api.Configuration()
+configuration = veros_api.Configuration()
 # Configure API key authorization: Bearer
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
@@ -41,8 +41,8 @@ configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Defining host is optional and default to https://api.vedh.io/api/v1
 configuration.host = "https://api.vedh.io/api/v1"
 # Create an instance of the API class
-api_instance = api.AccountsApi(api.ApiClient(configuration))
-data = api.JSONWebToken() # JSONWebToken | 
+api_instance = veros_api.AccountsApi(veros_api.ApiClient(configuration))
+data = veros_api.JSONWebToken() # JSONWebToken | 
 
 try:
     api_response = api_instance.accounts_login(data)
@@ -55,14 +55,14 @@ except ApiException as e:
 ```python
 from __future__ import print_function
 import time
-import api
-from api.rest import ApiException
+import veros_api
+from veros_api.rest import ApiException
 from pprint import pprint
-configuration = api.Configuration()
+configuration = veros_api.Configuration()
 # Configure HTTP basic authorization: Basic
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
-configuration = api.Configuration()
+configuration = veros_api.Configuration()
 # Configure API key authorization: Bearer
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
@@ -71,8 +71,8 @@ configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Defining host is optional and default to https://api.vedh.io/api/v1
 configuration.host = "https://api.vedh.io/api/v1"
 # Create an instance of the API class
-api_instance = api.AccountsApi(api.ApiClient(configuration))
-data = api.JSONWebToken() # JSONWebToken | 
+api_instance = veros_api.AccountsApi(veros_api.ApiClient(configuration))
+data = veros_api.JSONWebToken() # JSONWebToken | 
 
 try:
     api_response = api_instance.accounts_login(data)
@@ -122,14 +122,14 @@ View for working with user data.
 ```python
 from __future__ import print_function
 import time
-import api
-from api.rest import ApiException
+import veros_api
+from veros_api.rest import ApiException
 from pprint import pprint
-configuration = api.Configuration()
+configuration = veros_api.Configuration()
 # Configure HTTP basic authorization: Basic
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
-configuration = api.Configuration()
+configuration = veros_api.Configuration()
 # Configure API key authorization: Bearer
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
@@ -138,8 +138,8 @@ configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Defining host is optional and default to https://api.vedh.io/api/v1
 configuration.host = "https://api.vedh.io/api/v1"
 # Create an instance of the API class
-api_instance = api.AccountsApi(api.ApiClient(configuration))
-data = api.PasswordReset() # PasswordReset | 
+api_instance = veros_api.AccountsApi(veros_api.ApiClient(configuration))
+data = veros_api.PasswordReset() # PasswordReset | 
 
 try:
     api_response = api_instance.accounts_password_reset(data)
@@ -152,14 +152,14 @@ except ApiException as e:
 ```python
 from __future__ import print_function
 import time
-import api
-from api.rest import ApiException
+import veros_api
+from veros_api.rest import ApiException
 from pprint import pprint
-configuration = api.Configuration()
+configuration = veros_api.Configuration()
 # Configure HTTP basic authorization: Basic
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
-configuration = api.Configuration()
+configuration = veros_api.Configuration()
 # Configure API key authorization: Bearer
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
@@ -168,8 +168,8 @@ configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Defining host is optional and default to https://api.vedh.io/api/v1
 configuration.host = "https://api.vedh.io/api/v1"
 # Create an instance of the API class
-api_instance = api.AccountsApi(api.ApiClient(configuration))
-data = api.PasswordReset() # PasswordReset | 
+api_instance = veros_api.AccountsApi(veros_api.ApiClient(configuration))
+data = veros_api.PasswordReset() # PasswordReset | 
 
 try:
     api_response = api_instance.accounts_password_reset(data)
@@ -217,14 +217,14 @@ View for working with user data.
 ```python
 from __future__ import print_function
 import time
-import api
-from api.rest import ApiException
+import veros_api
+from veros_api.rest import ApiException
 from pprint import pprint
-configuration = api.Configuration()
+configuration = veros_api.Configuration()
 # Configure HTTP basic authorization: Basic
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
-configuration = api.Configuration()
+configuration = veros_api.Configuration()
 # Configure API key authorization: Bearer
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
@@ -233,8 +233,8 @@ configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Defining host is optional and default to https://api.vedh.io/api/v1
 configuration.host = "https://api.vedh.io/api/v1"
 # Create an instance of the API class
-api_instance = api.AccountsApi(api.ApiClient(configuration))
-data = api.PasswordResetConfirm() # PasswordResetConfirm | 
+api_instance = veros_api.AccountsApi(veros_api.ApiClient(configuration))
+data = veros_api.PasswordResetConfirm() # PasswordResetConfirm | 
 
 try:
     api_response = api_instance.accounts_password_reset_confirm(data)
@@ -247,14 +247,14 @@ except ApiException as e:
 ```python
 from __future__ import print_function
 import time
-import api
-from api.rest import ApiException
+import veros_api
+from veros_api.rest import ApiException
 from pprint import pprint
-configuration = api.Configuration()
+configuration = veros_api.Configuration()
 # Configure HTTP basic authorization: Basic
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
-configuration = api.Configuration()
+configuration = veros_api.Configuration()
 # Configure API key authorization: Bearer
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
@@ -263,8 +263,8 @@ configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Defining host is optional and default to https://api.vedh.io/api/v1
 configuration.host = "https://api.vedh.io/api/v1"
 # Create an instance of the API class
-api_instance = api.AccountsApi(api.ApiClient(configuration))
-data = api.PasswordResetConfirm() # PasswordResetConfirm | 
+api_instance = veros_api.AccountsApi(veros_api.ApiClient(configuration))
+data = veros_api.PasswordResetConfirm() # PasswordResetConfirm | 
 
 try:
     api_response = api_instance.accounts_password_reset_confirm(data)
@@ -312,14 +312,14 @@ Register user with first_name, last_name, email, phone, password1, password2 fie
 ```python
 from __future__ import print_function
 import time
-import api
-from api.rest import ApiException
+import veros_api
+from veros_api.rest import ApiException
 from pprint import pprint
-configuration = api.Configuration()
+configuration = veros_api.Configuration()
 # Configure HTTP basic authorization: Basic
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
-configuration = api.Configuration()
+configuration = veros_api.Configuration()
 # Configure API key authorization: Bearer
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
@@ -328,8 +328,8 @@ configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Defining host is optional and default to https://api.vedh.io/api/v1
 configuration.host = "https://api.vedh.io/api/v1"
 # Create an instance of the API class
-api_instance = api.AccountsApi(api.ApiClient(configuration))
-data = api.UserRegistration() # UserRegistration | 
+api_instance = veros_api.AccountsApi(veros_api.ApiClient(configuration))
+data = veros_api.UserRegistration() # UserRegistration | 
 
 try:
     api_response = api_instance.accounts_registration(data)
@@ -342,14 +342,14 @@ except ApiException as e:
 ```python
 from __future__ import print_function
 import time
-import api
-from api.rest import ApiException
+import veros_api
+from veros_api.rest import ApiException
 from pprint import pprint
-configuration = api.Configuration()
+configuration = veros_api.Configuration()
 # Configure HTTP basic authorization: Basic
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
-configuration = api.Configuration()
+configuration = veros_api.Configuration()
 # Configure API key authorization: Bearer
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
@@ -358,8 +358,8 @@ configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Defining host is optional and default to https://api.vedh.io/api/v1
 configuration.host = "https://api.vedh.io/api/v1"
 # Create an instance of the API class
-api_instance = api.AccountsApi(api.ApiClient(configuration))
-data = api.UserRegistration() # UserRegistration | 
+api_instance = veros_api.AccountsApi(veros_api.ApiClient(configuration))
+data = veros_api.UserRegistration() # UserRegistration | 
 
 try:
     api_response = api_instance.accounts_registration(data)
@@ -408,14 +408,14 @@ Send verify user email.
 ```python
 from __future__ import print_function
 import time
-import api
-from api.rest import ApiException
+import veros_api
+from veros_api.rest import ApiException
 from pprint import pprint
-configuration = api.Configuration()
+configuration = veros_api.Configuration()
 # Configure HTTP basic authorization: Basic
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
-configuration = api.Configuration()
+configuration = veros_api.Configuration()
 # Configure API key authorization: Bearer
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
@@ -424,7 +424,7 @@ configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Defining host is optional and default to https://api.vedh.io/api/v1
 configuration.host = "https://api.vedh.io/api/v1"
 # Create an instance of the API class
-api_instance = api.AccountsApi(api.ApiClient(configuration))
+api_instance = veros_api.AccountsApi(veros_api.ApiClient(configuration))
 email = 'email_example' # str | 
 search = 'search_example' # str | A search term. (optional)
 ordering = 'ordering_example' # str | Which field to use when ordering the results. (optional)
@@ -441,14 +441,14 @@ except ApiException as e:
 ```python
 from __future__ import print_function
 import time
-import api
-from api.rest import ApiException
+import veros_api
+from veros_api.rest import ApiException
 from pprint import pprint
-configuration = api.Configuration()
+configuration = veros_api.Configuration()
 # Configure HTTP basic authorization: Basic
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
-configuration = api.Configuration()
+configuration = veros_api.Configuration()
 # Configure API key authorization: Bearer
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
@@ -457,7 +457,7 @@ configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Defining host is optional and default to https://api.vedh.io/api/v1
 configuration.host = "https://api.vedh.io/api/v1"
 # Create an instance of the API class
-api_instance = api.AccountsApi(api.ApiClient(configuration))
+api_instance = veros_api.AccountsApi(veros_api.ApiClient(configuration))
 email = 'email_example' # str | 
 search = 'search_example' # str | A search term. (optional)
 ordering = 'ordering_example' # str | Which field to use when ordering the results. (optional)
@@ -513,14 +513,14 @@ Verify user email.
 ```python
 from __future__ import print_function
 import time
-import api
-from api.rest import ApiException
+import veros_api
+from veros_api.rest import ApiException
 from pprint import pprint
-configuration = api.Configuration()
+configuration = veros_api.Configuration()
 # Configure HTTP basic authorization: Basic
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
-configuration = api.Configuration()
+configuration = veros_api.Configuration()
 # Configure API key authorization: Bearer
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
@@ -529,7 +529,7 @@ configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Defining host is optional and default to https://api.vedh.io/api/v1
 configuration.host = "https://api.vedh.io/api/v1"
 # Create an instance of the API class
-api_instance = api.AccountsApi(api.ApiClient(configuration))
+api_instance = veros_api.AccountsApi(veros_api.ApiClient(configuration))
 id = 56 # int | A unique integer value identifying this User.
 key = 'key_example' # str | 
 
@@ -544,14 +544,14 @@ except ApiException as e:
 ```python
 from __future__ import print_function
 import time
-import api
-from api.rest import ApiException
+import veros_api
+from veros_api.rest import ApiException
 from pprint import pprint
-configuration = api.Configuration()
+configuration = veros_api.Configuration()
 # Configure HTTP basic authorization: Basic
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
-configuration = api.Configuration()
+configuration = veros_api.Configuration()
 # Configure API key authorization: Bearer
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
@@ -560,7 +560,7 @@ configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Defining host is optional and default to https://api.vedh.io/api/v1
 configuration.host = "https://api.vedh.io/api/v1"
 # Create an instance of the API class
-api_instance = api.AccountsApi(api.ApiClient(configuration))
+api_instance = veros_api.AccountsApi(veros_api.ApiClient(configuration))
 id = 56 # int | A unique integer value identifying this User.
 key = 'key_example' # str | 
 

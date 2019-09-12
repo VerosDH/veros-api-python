@@ -1,4 +1,4 @@
-# api.FundcardsApi
+# veros_api.FundcardsApi
 
 All URIs are relative to *https://api.vedh.io/api/v1*
 
@@ -19,14 +19,14 @@ Method | HTTP request | Description
 ```python
 from __future__ import print_function
 import time
-import api
-from api.rest import ApiException
+import veros_api
+from veros_api.rest import ApiException
 from pprint import pprint
-configuration = api.Configuration()
+configuration = veros_api.Configuration()
 # Configure HTTP basic authorization: Basic
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
-configuration = api.Configuration()
+configuration = veros_api.Configuration()
 # Configure API key authorization: Bearer
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
@@ -35,7 +35,7 @@ configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Defining host is optional and default to https://api.vedh.io/api/v1
 configuration.host = "https://api.vedh.io/api/v1"
 # Create an instance of the API class
-api_instance = api.FundcardsApi(api.ApiClient(configuration))
+api_instance = veros_api.FundcardsApi(veros_api.ApiClient(configuration))
 directions = 'directions_example' # str | Multiple values may be separated by commas. (optional)
 fundraising_type = 'fundraising_type_example' # str | Multiple values may be separated by commas. (optional)
 payment_types = 'payment_types_example' # str | Multiple values may be separated by commas. (optional)
@@ -56,14 +56,14 @@ except ApiException as e:
 ```python
 from __future__ import print_function
 import time
-import api
-from api.rest import ApiException
+import veros_api
+from veros_api.rest import ApiException
 from pprint import pprint
-configuration = api.Configuration()
+configuration = veros_api.Configuration()
 # Configure HTTP basic authorization: Basic
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
-configuration = api.Configuration()
+configuration = veros_api.Configuration()
 # Configure API key authorization: Bearer
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
@@ -72,7 +72,7 @@ configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Defining host is optional and default to https://api.vedh.io/api/v1
 configuration.host = "https://api.vedh.io/api/v1"
 # Create an instance of the API class
-api_instance = api.FundcardsApi(api.ApiClient(configuration))
+api_instance = veros_api.FundcardsApi(veros_api.ApiClient(configuration))
 directions = 'directions_example' # str | Multiple values may be separated by commas. (optional)
 fundraising_type = 'fundraising_type_example' # str | Multiple values may be separated by commas. (optional)
 payment_types = 'payment_types_example' # str | Multiple values may be separated by commas. (optional)
@@ -133,14 +133,14 @@ Name | Type | Description  | Notes
 ```python
 from __future__ import print_function
 import time
-import api
-from api.rest import ApiException
+import veros_api
+from veros_api.rest import ApiException
 from pprint import pprint
-configuration = api.Configuration()
+configuration = veros_api.Configuration()
 # Configure HTTP basic authorization: Basic
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
-configuration = api.Configuration()
+configuration = veros_api.Configuration()
 # Configure API key authorization: Bearer
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
@@ -149,7 +149,7 @@ configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Defining host is optional and default to https://api.vedh.io/api/v1
 configuration.host = "https://api.vedh.io/api/v1"
 # Create an instance of the API class
-api_instance = api.FundcardsApi(api.ApiClient(configuration))
+api_instance = veros_api.FundcardsApi(veros_api.ApiClient(configuration))
 id = 56 # int | A unique integer value identifying this fund card.
 
 try:
@@ -163,14 +163,14 @@ except ApiException as e:
 ```python
 from __future__ import print_function
 import time
-import api
-from api.rest import ApiException
+import veros_api
+from veros_api.rest import ApiException
 from pprint import pprint
-configuration = api.Configuration()
+configuration = veros_api.Configuration()
 # Configure HTTP basic authorization: Basic
 configuration.username = 'YOUR_USERNAME'
 configuration.password = 'YOUR_PASSWORD'
-configuration = api.Configuration()
+configuration = veros_api.Configuration()
 # Configure API key authorization: Bearer
 configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
@@ -179,7 +179,7 @@ configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Defining host is optional and default to https://api.vedh.io/api/v1
 configuration.host = "https://api.vedh.io/api/v1"
 # Create an instance of the API class
-api_instance = api.FundcardsApi(api.ApiClient(configuration))
+api_instance = veros_api.FundcardsApi(veros_api.ApiClient(configuration))
 id = 56 # int | A unique integer value identifying this fund card.
 
 try:

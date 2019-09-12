@@ -17,8 +17,8 @@ import re  # noqa: F401
 # python 2 and python 3 compatibility library
 import six
 
-from api.api_client import ApiClient
-from api.exceptions import (
+from veros_api.api_client import ApiClient
+from veros_api.exceptions import (
     ApiTypeError,
     ApiValueError
 )
