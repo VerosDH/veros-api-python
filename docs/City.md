@@ -6,7 +6,6 @@ Name | Type | Description | Notes
 **id** | **int** |  | [optional] 
 **name** | **str** |  | 
 **display_name** | **str** |  | 
-**region** | **int** |  | 
 **country** | **int** |  | 
 **feature_code** | **str** |  | [optional] 
 **timezone** | **str** |  | [optional] 

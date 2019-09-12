@@ -192,6 +192,8 @@ class Organization(object):
         """
         if short_description is None:
             raise ValueError("Invalid value for `short_description`, must not be `None`")  # noqa: E501
+        if short_description is not None and len(short_description) > 128:
+            raise ValueError("Invalid value for `short_description`, length must be less than or equal to `128`")  # noqa: E501
         if short_description is not None and len(short_description) < 1:
             raise ValueError("Invalid value for `short_description`, length must be greater than or equal to `1`")  # noqa: E501
 

@@ -34,7 +34,6 @@ class City(object):
         'id': 'int',
         'name': 'str',
         'display_name': 'str',
-        'region': 'int',
         'country': 'int',
         'feature_code': 'str',
         'timezone': 'str'
@@ -44,19 +43,17 @@ class City(object):
         'id': 'id',
         'name': 'name',
         'display_name': 'display_name',
-        'region': 'region',
         'country': 'country',
         'feature_code': 'feature_code',
         'timezone': 'timezone'
     }
 
-    def __init__(self, id=None, name=None, display_name=None, region=None, country=None, feature_code=None, timezone=None):  # noqa: E501
+    def __init__(self, id=None, name=None, display_name=None, country=None, feature_code=None, timezone=None):  # noqa: E501
         """City - a model defined in OpenAPI"""  # noqa: E501
 
         self._id = None
         self._name = None
         self._display_name = None
-        self._region = None
         self._country = None
         self._feature_code = None
         self._timezone = None
@@ -66,7 +63,6 @@ class City(object):
             self.id = id
         self.name = name
         self.display_name = display_name
-        self.region = region
         self.country = country
         self.feature_code = feature_code
         self.timezone = timezone
@@ -145,29 +141,6 @@ class City(object):
             raise ValueError("Invalid value for `display_name`, length must be greater than or equal to `1`")  # noqa: E501
 
         self._display_name = display_name
-
-    @property
-    def region(self):
-        """Gets the region of this City.  # noqa: E501
-
-
-        :return: The region of this City.  # noqa: E501
-        :rtype: int
-        """
-        return self._region
-
-    @region.setter
-    def region(self, region):
-        """Sets the region of this City.
-
-
-        :param region: The region of this City.  # noqa: E501
-        :type: int
-        """
-        if region is None:
-            raise ValueError("Invalid value for `region`, must not be `None`")  # noqa: E501
-
-        self._region = region
 
     @property
     def country(self):

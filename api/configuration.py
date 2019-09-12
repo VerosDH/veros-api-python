@@ -49,7 +49,7 @@ class Configuration(six.with_metaclass(TypeWithDefault, object)):
     :param password: Password for HTTP basic authentication
     """
 
-    def __init__(self, host="https://api.vedh.io/api/v1",
+    def __init__(self, host="http://localhost:8000/api/v1",
                  api_key={}, api_key_prefix={},
                  username="", password=""):
         """Constructor
@@ -287,7 +287,7 @@ class Configuration(six.with_metaclass(TypeWithDefault, object)):
         """
         return [
             {
-                'url': "https://api.vedh.io/api/v1",
+                'url': "http://localhost:8000/api/v1",
                 'description': "No description provided",
             }
         ]
