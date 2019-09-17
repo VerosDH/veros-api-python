@@ -31,12 +31,12 @@ class Organizer(object):
                             and the value is json key in definition.
     """
     openapi_types = {
-        'type': 'str',
+        'type': 'int',
         'name': 'str',
         'logo': 'str',
         'url': 'str',
-        'country': 'dict(str, str)',
-        'city': 'dict(str, str)',
+        'country': 'CountryLight',
+        'city': 'CityLight',
         'is_partner': 'str'
     }
 
@@ -83,7 +83,7 @@ class Organizer(object):
 
 
         :return: The type of this Organizer.  # noqa: E501
-        :rtype: str
+        :rtype: int
         """
         return self._type
 
@@ -93,7 +93,7 @@ class Organizer(object):
 
 
         :param type: The type of this Organizer.  # noqa: E501
-        :type: str
+        :type: int
         """
 
         self._type = type
@@ -167,7 +167,7 @@ class Organizer(object):
 
 
         :return: The country of this Organizer.  # noqa: E501
-        :rtype: dict(str, str)
+        :rtype: CountryLight
         """
         return self._country
 
@@ -177,7 +177,7 @@ class Organizer(object):
 
 
         :param country: The country of this Organizer.  # noqa: E501
-        :type: dict(str, str)
+        :type: CountryLight
         """
 
         self._country = country
@@ -188,7 +188,7 @@ class Organizer(object):
 
 
         :return: The city of this Organizer.  # noqa: E501
-        :rtype: dict(str, str)
+        :rtype: CityLight
         """
         return self._city
 
@@ -198,7 +198,7 @@ class Organizer(object):
 
 
         :param city: The city of this Organizer.  # noqa: E501
-        :type: dict(str, str)
+        :type: CityLight
         """
 
         self._city = city
