@@ -13,7 +13,7 @@ Name | Type | Description | Notes
 **directions** | **list[int]** |  | 
 **fundraising_type** | **int** |  | 
 **payment_types** | **list[int]** |  | 
-**organizer** | **str** |  | [optional] 
+**organizer** | [**Organizer**](Organizer.md) |  | [optional] 
 **created** | **str** |  | [optional] 
 **expires** | **str** |  | [optional] 
 **benefactors** | **int** |  | [optional] 

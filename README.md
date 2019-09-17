@@ -130,6 +130,7 @@ Class | Method | HTTP request | Description
  - [JSONWebToken](docs/JSONWebToken.md)
  - [Organization](docs/Organization.md)
  - [OrganizationLight](docs/OrganizationLight.md)
+ - [Organizer](docs/Organizer.md)
  - [PasswordReset](docs/PasswordReset.md)
  - [PasswordResetConfirm](docs/PasswordResetConfirm.md)
  - [PaymentType](docs/PaymentType.md)

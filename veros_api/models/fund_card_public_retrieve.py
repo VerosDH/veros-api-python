@@ -40,7 +40,7 @@ class FundCardPublicRetrieve(object):
         'directions': 'list[int]',
         'fundraising_type': 'int',
         'payment_types': 'list[int]',
-        'organizer': 'str',
+        'organizer': 'Organizer',
         'expires': 'str',
         'created': 'str',
         'benefactors': 'int',
@@ -326,7 +326,7 @@ class FundCardPublicRetrieve(object):
 
 
         :return: The organizer of this FundCardPublicRetrieve.  # noqa: E501
-        :rtype: str
+        :rtype: Organizer
         """
         return self._organizer
 
@@ -336,7 +336,7 @@ class FundCardPublicRetrieve(object):
 
 
         :param organizer: The organizer of this FundCardPublicRetrieve.  # noqa: E501
-        :type: str
+        :type: Organizer
         """
 
         self._organizer = organizer

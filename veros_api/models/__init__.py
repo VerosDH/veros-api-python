@@ -35,6 +35,7 @@ from veros_api.models.inline_response2005 import InlineResponse2005
 from veros_api.models.json_web_token import JSONWebToken
 from veros_api.models.organization import Organization
 from veros_api.models.organization_light import OrganizationLight
+from veros_api.models.organizer import Organizer
 from veros_api.models.password_reset import PasswordReset
 from veros_api.models.password_reset_confirm import PasswordResetConfirm
 from veros_api.models.payment_type import PaymentType
