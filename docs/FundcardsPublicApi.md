@@ -106,7 +106,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
 # **fundcards_public_list**
-> InlineResponse2003 fundcards_public_list(directions=directions, fundraising_type=fundraising_type, payment_types=payment_types, ids=ids, search=search, ordering=ordering, country_id=country_id, country_name=country_name, organizer_type=organizer_type, limit=limit, offset=offset)
+> InlineResponse2003 fundcards_public_list(directions=directions, fundraising_type=fundraising_type, payment_types=payment_types, ids=ids, search=search, ordering=ordering, country_id=country_id, country_name=country_name, city_id=city_id, city_name=city_name, organizer_type=organizer_type, limit=limit, offset=offset)
 
 
 
@@ -141,12 +141,14 @@ search = 'search_example' # str | A search term. (optional)
 ordering = 'ordering_example' # str | Which field to use when ordering the results. (optional)
 country_id = 'country_id_example' # str | Country ID (optional)
 country_name = 'country_name_example' # str | Country name (optional)
+city_id = 'city_id_example' # str | City ID (optional)
+city_name = 'city_name_example' # str | City name (optional)
 organizer_type = 'organizer_type_example' # str | Organizer Type (optional)
 limit = 56 # int | Number of results to return per page. (optional)
 offset = 56 # int | The initial index from which to return the results. (optional)
 
 try:
-    api_response = api_instance.fundcards_public_list(directions=directions, fundraising_type=fundraising_type, payment_types=payment_types, ids=ids, search=search, ordering=ordering, country_id=country_id, country_name=country_name, organizer_type=organizer_type, limit=limit, offset=offset)
+    api_response = api_instance.fundcards_public_list(directions=directions, fundraising_type=fundraising_type, payment_types=payment_types, ids=ids, search=search, ordering=ordering, country_id=country_id, country_name=country_name, city_id=city_id, city_name=city_name, organizer_type=organizer_type, limit=limit, offset=offset)
     pprint(api_response)
 except ApiException as e:
     print("Exception when calling FundcardsPublicApi->fundcards_public_list: %s\n" % e)
@@ -181,12 +183,14 @@ search = 'search_example' # str | A search term. (optional)
 ordering = 'ordering_example' # str | Which field to use when ordering the results. (optional)
 country_id = 'country_id_example' # str | Country ID (optional)
 country_name = 'country_name_example' # str | Country name (optional)
+city_id = 'city_id_example' # str | City ID (optional)
+city_name = 'city_name_example' # str | City name (optional)
 organizer_type = 'organizer_type_example' # str | Organizer Type (optional)
 limit = 56 # int | Number of results to return per page. (optional)
 offset = 56 # int | The initial index from which to return the results. (optional)
 
 try:
-    api_response = api_instance.fundcards_public_list(directions=directions, fundraising_type=fundraising_type, payment_types=payment_types, ids=ids, search=search, ordering=ordering, country_id=country_id, country_name=country_name, organizer_type=organizer_type, limit=limit, offset=offset)
+    api_response = api_instance.fundcards_public_list(directions=directions, fundraising_type=fundraising_type, payment_types=payment_types, ids=ids, search=search, ordering=ordering, country_id=country_id, country_name=country_name, city_id=city_id, city_name=city_name, organizer_type=organizer_type, limit=limit, offset=offset)
     pprint(api_response)
 except ApiException as e:
     print("Exception when calling FundcardsPublicApi->fundcards_public_list: %s\n" % e)
@@ -204,6 +208,8 @@ Name | Type | Description  | Notes
  **ordering** | **str**| Which field to use when ordering the results. | [optional] 
  **country_id** | **str**| Country ID | [optional] 
  **country_name** | **str**| Country name | [optional] 
+ **city_id** | **str**| City ID | [optional] 
+ **city_name** | **str**| City name | [optional] 
  **organizer_type** | **str**| Organizer Type | [optional] 
  **limit** | **int**| Number of results to return per page. | [optional] 
  **offset** | **int**| The initial index from which to return the results. | [optional] 

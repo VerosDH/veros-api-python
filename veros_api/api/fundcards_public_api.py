@@ -171,6 +171,8 @@ class FundcardsPublicApi(object):
         :param str ordering: Which field to use when ordering the results.
         :param str country_id: Country ID
         :param str country_name: Country name
+        :param str city_id: City ID
+        :param str city_name: City name
         :param str organizer_type: Organizer Type
         :param int limit: Number of results to return per page.
         :param int offset: The initial index from which to return the results.
@@ -205,6 +207,8 @@ class FundcardsPublicApi(object):
         :param str ordering: Which field to use when ordering the results.
         :param str country_id: Country ID
         :param str country_name: Country name
+        :param str city_id: City ID
+        :param str city_name: City name
         :param str organizer_type: Organizer Type
         :param int limit: Number of results to return per page.
         :param int offset: The initial index from which to return the results.
@@ -224,7 +228,7 @@ class FundcardsPublicApi(object):
 
         local_var_params = locals()
 
-        all_params = ['directions', 'fundraising_type', 'payment_types', 'ids', 'search', 'ordering', 'country_id', 'country_name', 'organizer_type', 'limit', 'offset']  # noqa: E501
+        all_params = ['directions', 'fundraising_type', 'payment_types', 'ids', 'search', 'ordering', 'country_id', 'country_name', 'city_id', 'city_name', 'organizer_type', 'limit', 'offset']  # noqa: E501
         all_params.append('async_req')
         all_params.append('_return_http_data_only')
         all_params.append('_preload_content')
@@ -260,6 +264,10 @@ class FundcardsPublicApi(object):
             query_params.append(('country_id', local_var_params['country_id']))  # noqa: E501
         if 'country_name' in local_var_params:
             query_params.append(('country_name', local_var_params['country_name']))  # noqa: E501
+        if 'city_id' in local_var_params:
+            query_params.append(('city_id', local_var_params['city_id']))  # noqa: E501
+        if 'city_name' in local_var_params:
+            query_params.append(('city_name', local_var_params['city_name']))  # noqa: E501
         if 'organizer_type' in local_var_params:
             query_params.append(('organizer_type', local_var_params['organizer_type']))  # noqa: E501
         if 'limit' in local_var_params:
