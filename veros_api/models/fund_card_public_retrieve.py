@@ -426,8 +426,6 @@ class FundCardPublicRetrieve(object):
         :param content: The content of this FundCardPublicRetrieve.  # noqa: E501
         :type: str
         """
-        if content is not None and len(content) < 1:
-            raise ValueError("Invalid value for `content`, length must be greater than or equal to `1`")  # noqa: E501
 
         self._content = content
 

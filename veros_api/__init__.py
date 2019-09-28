@@ -25,6 +25,7 @@ from veros_api.api.feedback_themes_api import FeedbackThemesApi
 from veros_api.api.fundcards_api import FundcardsApi
 from veros_api.api.fundcards_public_api import FundcardsPublicApi
 from veros_api.api.fundraising_types_api import FundraisingTypesApi
+from veros_api.api.marketcards_public_api import MarketcardsPublicApi
 from veros_api.api.organizations_api import OrganizationsApi
 from veros_api.api.payment_types_api import PaymentTypesApi
 
@@ -38,6 +39,7 @@ from veros_api.exceptions import ApiKeyError
 from veros_api.exceptions import ApiException
 # import models into sdk package
 from veros_api.models.bad_request_response import BadRequestResponse
+from veros_api.models.card_go import CardGo
 from veros_api.models.city import City
 from veros_api.models.city_light import CityLight
 from veros_api.models.country import Country
@@ -45,7 +47,6 @@ from veros_api.models.country_light import CountryLight
 from veros_api.models.direction import Direction
 from veros_api.models.feedback_theme import FeedbackTheme
 from veros_api.models.fund_card import FundCard
-from veros_api.models.fund_card_donate import FundCardDonate
 from veros_api.models.fund_card_public_list import FundCardPublicList
 from veros_api.models.fund_card_public_retrieve import FundCardPublicRetrieve
 from veros_api.models.fundraising_type import FundraisingType

@@ -1,16 +1,16 @@
-# veros_api.FundcardsPublicApi
+# veros_api.MarketcardsPublicApi
 
 All URIs are relative to *https://api.vedh.io/api/v1*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
-[**fundcards_public_go**](FundcardsPublicApi.md#fundcards_public_go) | **POST** /fundcards-public/{id}/go/ | 
-[**fundcards_public_list**](FundcardsPublicApi.md#fundcards_public_list) | **GET** /fundcards-public/ | 
-[**fundcards_public_read**](FundcardsPublicApi.md#fundcards_public_read) | **GET** /fundcards-public/{id}/ | 
+[**marketcards_public_go**](MarketcardsPublicApi.md#marketcards_public_go) | **POST** /marketcards-public/{id}/go/ | 
+[**marketcards_public_list**](MarketcardsPublicApi.md#marketcards_public_list) | **GET** /marketcards-public/ | 
+[**marketcards_public_read**](MarketcardsPublicApi.md#marketcards_public_read) | **GET** /marketcards-public/{id}/ | 
 
 
-# **fundcards_public_go**
-> CardGo fundcards_public_go(id, data)
+# **marketcards_public_go**
+> CardGo marketcards_public_go(id, data)
 
 
 
@@ -36,15 +36,15 @@ configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Defining host is optional and default to https://api.vedh.io/api/v1
 configuration.host = "https://api.vedh.io/api/v1"
 # Create an instance of the API class
-api_instance = veros_api.FundcardsPublicApi(veros_api.ApiClient(configuration))
+api_instance = veros_api.MarketcardsPublicApi(veros_api.ApiClient(configuration))
 id = 'id_example' # str | 
 data = veros_api.CardGo() # CardGo | 
 
 try:
-    api_response = api_instance.fundcards_public_go(id, data)
+    api_response = api_instance.marketcards_public_go(id, data)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling FundcardsPublicApi->fundcards_public_go: %s\n" % e)
+    print("Exception when calling MarketcardsPublicApi->marketcards_public_go: %s\n" % e)
 ```
 
 * Api Key Authentication (Bearer):
@@ -67,15 +67,15 @@ configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Defining host is optional and default to https://api.vedh.io/api/v1
 configuration.host = "https://api.vedh.io/api/v1"
 # Create an instance of the API class
-api_instance = veros_api.FundcardsPublicApi(veros_api.ApiClient(configuration))
+api_instance = veros_api.MarketcardsPublicApi(veros_api.ApiClient(configuration))
 id = 'id_example' # str | 
 data = veros_api.CardGo() # CardGo | 
 
 try:
-    api_response = api_instance.fundcards_public_go(id, data)
+    api_response = api_instance.marketcards_public_go(id, data)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling FundcardsPublicApi->fundcards_public_go: %s\n" % e)
+    print("Exception when calling MarketcardsPublicApi->marketcards_public_go: %s\n" % e)
 ```
 
 ### Parameters
@@ -105,8 +105,8 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **fundcards_public_list**
-> InlineResponse2003 fundcards_public_list(directions=directions, fundraising_type=fundraising_type, payment_types=payment_types, ids=ids, search=search, ordering=ordering, country_id=country_id, country_name=country_name, city_id=city_id, city_name=city_name, organizer_type=organizer_type, limit=limit, offset=offset)
+# **marketcards_public_list**
+> InlineResponse2003 marketcards_public_list(directions=directions, fundraising_type=fundraising_type, payment_types=payment_types, ids=ids, search=search, ordering=ordering, country_id=country_id, country_name=country_name, city_id=city_id, city_name=city_name, organizer_type=organizer_type, limit=limit, offset=offset)
 
 
 
@@ -132,7 +132,7 @@ configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Defining host is optional and default to https://api.vedh.io/api/v1
 configuration.host = "https://api.vedh.io/api/v1"
 # Create an instance of the API class
-api_instance = veros_api.FundcardsPublicApi(veros_api.ApiClient(configuration))
+api_instance = veros_api.MarketcardsPublicApi(veros_api.ApiClient(configuration))
 directions = 'directions_example' # str | Multiple values may be separated by commas. (optional)
 fundraising_type = 'fundraising_type_example' # str | Multiple values may be separated by commas. (optional)
 payment_types = 'payment_types_example' # str | Multiple values may be separated by commas. (optional)
@@ -148,10 +148,10 @@ limit = 56 # int | Number of results to return per page. (optional)
 offset = 56 # int | The initial index from which to return the results. (optional)
 
 try:
-    api_response = api_instance.fundcards_public_list(directions=directions, fundraising_type=fundraising_type, payment_types=payment_types, ids=ids, search=search, ordering=ordering, country_id=country_id, country_name=country_name, city_id=city_id, city_name=city_name, organizer_type=organizer_type, limit=limit, offset=offset)
+    api_response = api_instance.marketcards_public_list(directions=directions, fundraising_type=fundraising_type, payment_types=payment_types, ids=ids, search=search, ordering=ordering, country_id=country_id, country_name=country_name, city_id=city_id, city_name=city_name, organizer_type=organizer_type, limit=limit, offset=offset)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling FundcardsPublicApi->fundcards_public_list: %s\n" % e)
+    print("Exception when calling MarketcardsPublicApi->marketcards_public_list: %s\n" % e)
 ```
 
 * Api Key Authentication (Bearer):
@@ -174,7 +174,7 @@ configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Defining host is optional and default to https://api.vedh.io/api/v1
 configuration.host = "https://api.vedh.io/api/v1"
 # Create an instance of the API class
-api_instance = veros_api.FundcardsPublicApi(veros_api.ApiClient(configuration))
+api_instance = veros_api.MarketcardsPublicApi(veros_api.ApiClient(configuration))
 directions = 'directions_example' # str | Multiple values may be separated by commas. (optional)
 fundraising_type = 'fundraising_type_example' # str | Multiple values may be separated by commas. (optional)
 payment_types = 'payment_types_example' # str | Multiple values may be separated by commas. (optional)
@@ -190,10 +190,10 @@ limit = 56 # int | Number of results to return per page. (optional)
 offset = 56 # int | The initial index from which to return the results. (optional)
 
 try:
-    api_response = api_instance.fundcards_public_list(directions=directions, fundraising_type=fundraising_type, payment_types=payment_types, ids=ids, search=search, ordering=ordering, country_id=country_id, country_name=country_name, city_id=city_id, city_name=city_name, organizer_type=organizer_type, limit=limit, offset=offset)
+    api_response = api_instance.marketcards_public_list(directions=directions, fundraising_type=fundraising_type, payment_types=payment_types, ids=ids, search=search, ordering=ordering, country_id=country_id, country_name=country_name, city_id=city_id, city_name=city_name, organizer_type=organizer_type, limit=limit, offset=offset)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling FundcardsPublicApi->fundcards_public_list: %s\n" % e)
+    print("Exception when calling MarketcardsPublicApi->marketcards_public_list: %s\n" % e)
 ```
 
 ### Parameters
@@ -234,8 +234,8 @@ Name | Type | Description  | Notes
 
 [[Back to top]](#) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to Model list]](../README.md#documentation-for-models) [[Back to README]](../README.md)
 
-# **fundcards_public_read**
-> FundCardPublicRetrieve fundcards_public_read(id)
+# **marketcards_public_read**
+> FundCardPublicRetrieve marketcards_public_read(id)
 
 
 
@@ -261,14 +261,14 @@ configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Defining host is optional and default to https://api.vedh.io/api/v1
 configuration.host = "https://api.vedh.io/api/v1"
 # Create an instance of the API class
-api_instance = veros_api.FundcardsPublicApi(veros_api.ApiClient(configuration))
+api_instance = veros_api.MarketcardsPublicApi(veros_api.ApiClient(configuration))
 id = 'id_example' # str | 
 
 try:
-    api_response = api_instance.fundcards_public_read(id)
+    api_response = api_instance.marketcards_public_read(id)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling FundcardsPublicApi->fundcards_public_read: %s\n" % e)
+    print("Exception when calling MarketcardsPublicApi->marketcards_public_read: %s\n" % e)
 ```
 
 * Api Key Authentication (Bearer):
@@ -291,14 +291,14 @@ configuration.api_key['Authorization'] = 'YOUR_API_KEY'
 # Defining host is optional and default to https://api.vedh.io/api/v1
 configuration.host = "https://api.vedh.io/api/v1"
 # Create an instance of the API class
-api_instance = veros_api.FundcardsPublicApi(veros_api.ApiClient(configuration))
+api_instance = veros_api.MarketcardsPublicApi(veros_api.ApiClient(configuration))
 id = 'id_example' # str | 
 
 try:
-    api_response = api_instance.fundcards_public_read(id)
+    api_response = api_instance.marketcards_public_read(id)
     pprint(api_response)
 except ApiException as e:
-    print("Exception when calling FundcardsPublicApi->fundcards_public_read: %s\n" % e)
+    print("Exception when calling MarketcardsPublicApi->marketcards_public_read: %s\n" % e)
 ```
 
 ### Parameters

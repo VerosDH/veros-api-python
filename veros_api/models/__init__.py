@@ -15,6 +15,7 @@ from __future__ import absolute_import
 
 # import models into model package
 from veros_api.models.bad_request_response import BadRequestResponse
+from veros_api.models.card_go import CardGo
 from veros_api.models.city import City
 from veros_api.models.city_light import CityLight
 from veros_api.models.country import Country
@@ -22,7 +23,6 @@ from veros_api.models.country_light import CountryLight
 from veros_api.models.direction import Direction
 from veros_api.models.feedback_theme import FeedbackTheme
 from veros_api.models.fund_card import FundCard
-from veros_api.models.fund_card_donate import FundCardDonate
 from veros_api.models.fund_card_public_list import FundCardPublicList
 from veros_api.models.fund_card_public_retrieve import FundCardPublicRetrieve
 from veros_api.models.fundraising_type import FundraisingType

@@ -11,5 +11,6 @@ from veros_api.api.feedback_themes_api import FeedbackThemesApi
 from veros_api.api.fundcards_api import FundcardsApi
 from veros_api.api.fundcards_public_api import FundcardsPublicApi
 from veros_api.api.fundraising_types_api import FundraisingTypesApi
+from veros_api.api.marketcards_public_api import MarketcardsPublicApi
 from veros_api.api.organizations_api import OrganizationsApi
 from veros_api.api.payment_types_api import PaymentTypesApi
